@@ -1,3 +1,4 @@
+
 import "./ProCard.scss";
 
 function ProCard({ data }) {
@@ -11,3 +12,4 @@ function ProCard({ data }) {
   );
 }
 export default ProCard;
+

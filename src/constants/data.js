@@ -1,3 +1,4 @@
+
 import img1 from "../assets/CardImage/Divar.png";
 
 const cards = [
@@ -32,3 +33,4 @@ const cards = [
 ];
 
 export { cards };
+

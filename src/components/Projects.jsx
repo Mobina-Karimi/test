@@ -1,3 +1,4 @@
+
 import { cards } from "../constants/data.js";
 import ProCard from "./ProCard";
 import "./Projects.scss";
@@ -15,3 +16,4 @@ function Projects() {
   );
 }
 export default Projects;
+
