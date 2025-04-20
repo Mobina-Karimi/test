@@ -1,5 +1,6 @@
-import img from "../assets/m.jpg";
-import "../components/About.scss";
+import img from ".../images/m.jpg" 
+import "../components/About.scss"
+
 import CodeEditor from "./CodeEditor";
 
 function About() {
