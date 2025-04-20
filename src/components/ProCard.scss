@@ -1,0 +1,17 @@
+.cardContainer{
+    width: 17rem;
+    height: 25rem;
+    border-radius: 5px;
+    background-color: #a8a8a88b;
+    margin: 0 2rem 2rem 2rem;
+    padding: 17px;
+
+    img{
+        width: 15rem;
+        height: 10rem;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+}
