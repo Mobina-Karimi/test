@@ -1,4 +1,4 @@
-// import img from "../assets/MImg.png" 
+import img from ".../assets/images/m.jpg" 
 import "../components/About.scss"
 import CodeEditor from "./CodeEditor";
 
@@ -8,10 +8,6 @@ function About() {
     <h3 className="about-title">Who I Am</h3>
 
     <div className="about">
-        <aside className="left">
-            {/* <img src={img} alt=""/> */}
-        </aside>
-
         <main>
             <div className="container">
                 <div className="headerContainer">
@@ -22,6 +18,10 @@ function About() {
                 <CodeEditor />
             </div>
         </main>
+      
+          <aside className="left">
+            <img src={img} alt=""/> 
+        </aside>
     </div>
 </div>
   )
