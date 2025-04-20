@@ -6,7 +6,7 @@ import "./Projects.scss";
 function Projects() {
   return (
     <div>
-      <h1 class="projects-title">My Projects</h1>
+      <h1 className="projects-title">My Projects</h1>
       <div className="card">
         {cards.map((card) => (
           <ProCard key={card.id} data={card} />
