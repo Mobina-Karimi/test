@@ -20,8 +20,14 @@
 .cardContainer{
     width: 13rem;
     position: relative;
+<<<<<<< HEAD
     flex-direction: row;
     margin: 2rem 4rem 5rem 4rem;
+=======
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 2rem 5rem 4rem;
+>>>>>>> fe8d57ddfc8501ed2c69bd569accbc29d2e544ff
 
     .card{
         position: relative;

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { cards } from "../constants/data.js";
 import ProCard from "./ProCard";
 import "./Projects.scss";
@@ -34,7 +35,27 @@ function Projects() {
           ))}
         </div>
       </motion.div>
+=======
+
+import { cards } from "../constants/data.js";
+import ProCard from "./ProCard";
+import "./Projects.scss";
+
+function Projects() {
+  return (
+    <div>
+      <h1 className="projects-title">My Projects</h1>
+      <div className="card">
+        {cards.map((card) => (
+          <ProCard key={card.id} data={card} />
+        ))}
+      </div>
+>>>>>>> fe8d57ddfc8501ed2c69bd569accbc29d2e544ff
     </div>
   );
 }
 export default Projects;
+<<<<<<< HEAD
+=======
+
+>>>>>>> fe8d57ddfc8501ed2c69bd569accbc29d2e544ff

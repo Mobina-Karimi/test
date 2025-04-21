@@ -16,11 +16,15 @@ function Footer() {
   // Animation variants for smooth reveal
   const variants = {
     hidden: { opacity: 0, y: 50 },
+<<<<<<< HEAD
     visible: {
       opacity: 1,
       y: 0,
       transition: { duration: 0.8, ease: "easeOut" },
     },
+=======
+    visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } },
+>>>>>>> fe8d57ddfc8501ed2c69bd569accbc29d2e544ff
   };
 
   return (
@@ -32,10 +36,25 @@ function Footer() {
       viewport={{ once: true, amount: 0.3 }}
     >
       <div className="contactMe">
+<<<<<<< HEAD
         <motion.h2 initial="hidden" whileInView="visible" variants={variants}>
           Get In Touch
         </motion.h2>
         <motion.h5 initial="hidden" whileInView="visible" variants={variants}>
+=======
+        <motion.h2
+          initial="hidden"
+          whileInView="visible"
+          variants={variants}
+        >
+          Get In Touch
+        </motion.h2>
+        <motion.h5
+          initial="hidden"
+          whileInView="visible"
+          variants={variants}
+        >
+>>>>>>> fe8d57ddfc8501ed2c69bd569accbc29d2e544ff
           I am available to bring your ideas to life.
         </motion.h5>
         <motion.div
