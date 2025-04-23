@@ -1,4 +1,7 @@
-import img1 from "../assets/React.png";
+import img1 from "../assets/HTML.png";
+import img2 from "../assets/CSS.png";
+import img5 from "../assets/JavaScript.png";
+import img6 from "../assets/React.png";
 
 const SkillsData = [
   {
@@ -8,7 +11,7 @@ const SkillsData = [
   },
   {
     id: "02",
-    image: img1,
+    image: img2,
     title: "CSS",
   },
   {
@@ -23,12 +26,12 @@ const SkillsData = [
   },
   {
     id: "05",
-    image: img1,
+    image: img5,
     title: "JAVASCRIPT",
   },
   {
     id: "06",
-    image: img1,
+    image: img6,
     title: "REACT",
   },
   {
