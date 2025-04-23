@@ -58,7 +58,6 @@
                 }
             }
         }
-<<<<<<< HEAD
 
         button {
             padding: 10px 20px;
@@ -87,43 +86,9 @@
             }
         }
 
-=======
-
-        button {
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            background: variables.$thirdColor;
-            color: #fff;
-            cursor: pointer;
-            transition: background-color 0.3s, transform 0.3s;
-
-            &:hover {
-                background-color: variables.$secondColor;
-                transform: scale(1.1);
-            }
-        }
-    }
-
-    .text-content {
-        margin-top: 5rem;
-
-        h1 {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-            span {
-                color: variables.$thirdColor;
-            }
-        }
-
->>>>>>> fe8d57ddfc8501ed2c69bd569accbc29d2e544ff
         p {
             font-size: 1.2rem;
             color: variables.$secondColor;
         }
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> fe8d57ddfc8501ed2c69bd569accbc29d2e544ff

@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-import { cards } from "../constants/data.js";
+import { cards } from "../constants/ProjectsData.js";
 import ProCard from "./ProCard";
 import "./Projects.scss";
 import { motion } from "framer-motion";
@@ -16,46 +15,26 @@ function Projects() {
   return (
     <div>
       <motion.h1
+        className="projects-title"
         initial="hidden"
         whileInView="visible"
         variants={variants}
         viewport={{ once: true, amount: 0.5 }}
       >
-        <h1 className="projects-title">My Projects</h1>
+        My Projects
       </motion.h1>
       <motion.div
+        className="cards"
         initial="hidden"
         whileInView="visible"
         variants={variants}
         viewport={{ once: true, amount: 0.5 }}
       >
-        <div className="cards">
-          {cards.map((card) => (
-            <ProCard key={card.id} data={card} />
-          ))}
-        </div>
-      </motion.div>
-=======
-
-import { cards } from "../constants/data.js";
-import ProCard from "./ProCard";
-import "./Projects.scss";
-
-function Projects() {
-  return (
-    <div>
-      <h1 className="projects-title">My Projects</h1>
-      <div className="card">
         {cards.map((card) => (
           <ProCard key={card.id} data={card} />
         ))}
-      </div>
->>>>>>> fe8d57ddfc8501ed2c69bd569accbc29d2e544ff
+      </motion.div>
     </div>
   );
 }
 export default Projects;
-<<<<<<< HEAD
-=======
-
->>>>>>> fe8d57ddfc8501ed2c69bd569accbc29d2e544ff

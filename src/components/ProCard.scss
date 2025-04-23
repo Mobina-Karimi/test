@@ -1,33 +1,10 @@
-// .cardContainer{
-//     width: 17rem;
-//     height: 25rem;
-//     border-radius: 5px;
-//     background-color: #a8a8a88b;
-//     margin: 0 2rem 2rem 2rem;
-//     padding: 17px;
-
-//     img{
-//         width: 15rem;
-//         height: 10rem;
-//         border-radius: 5px;
-//         display: flex;
-//         justify-content: center;
-//         margin-bottom: 2rem;
-//     }
-// }
 @use "/src/globalScss/variables" as variables;
 
 .cardContainer{
     width: 13rem;
     position: relative;
-<<<<<<< HEAD
     flex-direction: row;
     margin: 2rem 4rem 5rem 4rem;
-=======
-    display: flex;
-    justify-content: space-between;
-    margin: 2rem 2rem 5rem 4rem;
->>>>>>> fe8d57ddfc8501ed2c69bd569accbc29d2e544ff
 
     .card{
         position: relative;
