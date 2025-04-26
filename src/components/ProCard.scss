@@ -4,7 +4,7 @@
     width: 13rem;
     position: relative;
     flex-direction: row;
-    margin: 2rem 4rem 5rem 4rem;
+    margin: 2rem 13rem 5rem 4rem;
 
     .card{
         position: relative;
@@ -96,6 +96,45 @@
     margin-bottom: 10px;
 }
 
+
+@media screen and (max-width:1023px) and (min-width:768px){
+    .cardContainer{
+        width: 13rem;
+        flex-direction: column;
+        margin: 2rem auto;
+        
+        .card{
+            .face{
+                width: 320px;
+            }
+            .face.face1 .content{
+                img{
+                    width: 300px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:767px) {
+   .cardContainer{
+        width: 13rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 7rem 0 0;
+        
+        .card{
+            .face{
+                width: 320px;
+            }
+            .face.face1 .content{
+                img{
+                    width: 300px;
+                }
+            }
+        }
+    }
+}
 // .cardContainer .card .face.face2 .content a{
 //     margin: 15px 0 0;
 //     display:  inline-block;
