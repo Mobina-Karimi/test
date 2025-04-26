@@ -51,6 +51,14 @@ function Header() {
           Transforming ideas into beautiful web experiences.
         </motion.p>
       </div>
+
+      <nav className="bottomNav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </header>
   );
 }

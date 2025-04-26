@@ -5,7 +5,6 @@ import "../components/About.scss";
 import CodeEditor from "./CodeEditor";
 
 function About() {
-  // وریانت برای تمامی عناصر (پنهان و نمایان شدن با حرکت به بالا)
   const variants = {
     hidden: { opacity: 0, y: 50 },
     visible: {
@@ -17,7 +16,6 @@ function About() {
 
   return (
     <div id="about">
-      {/* افکت برای متن عنوان */}
       <motion.h1
         className="about-title"
         initial="hidden"
@@ -30,7 +28,6 @@ function About() {
 
       <div className="about">
         <main>
-          {/* افکت برای کانتینر اصلی */}
           <motion.div
             className="container"
             initial="hidden"
@@ -48,7 +45,6 @@ function About() {
         </main>
 
         <aside>
-          {/* افکت برای باکس کارت‌ها */}
           <motion.div
             className="box"
             initial="hidden"

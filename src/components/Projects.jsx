@@ -16,6 +16,7 @@ function Projects() {
     <div>
       <motion.h1
         className="projects-title"
+        id="projects"
         initial="hidden"
         whileInView="visible"
         variants={variants}

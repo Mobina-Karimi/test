@@ -13,7 +13,6 @@ function Footer() {
     }
   };
 
-  // Animation variants for smooth reveal
   const variants = {
     hidden: { opacity: 0, y: 50 },
     visible: {

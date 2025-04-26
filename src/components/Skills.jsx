@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import { SkillsData } from "../constants/SkillsData.js";
 
 function Skills() {
-  // const { title, image } = data;
   const variants = {
     hidden: { opacity: 0, y: 50 },
     visible: {
@@ -15,6 +14,7 @@ function Skills() {
   return (
     <div>
       <motion.h1
+        id="skills"
         className="skills-title"
         initial="hidden"
         whileInView="visible"
